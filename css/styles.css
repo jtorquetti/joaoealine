@@ -240,7 +240,7 @@ a{
   }
 
   .title-image {
-    position: static;
+    position: absolute;
     transform: rotate(0);
   }
 }
