@@ -1,0 +1,247 @@
+body {
+
+}
+
+p {
+  color: #8f8f8f;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+a{
+  color: #393e46;
+
+}
+
+
+#title {
+  background-color: #ff4c68;
+  color: #393e46;
+}
+
+
+
+.header {
+  font-family: 'Emilys Candy', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: 'Emilys Candy', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Emilys Candy', cursive;
+
+}
+.color {
+  font-size: 50px;
+  color: #da2d2d;
+  margin-bottom: 1rem;
+}
+
+
+.fa-heart:hover {
+  color: #393e46;
+}
+
+/* Title Image*/
+.img-title {
+  width: 60%;
+  position: absolute;
+  right: 20%;
+  border-radius: 100%;
+
+
+}
+
+/*Download Button*/
+.download-button {
+  margin: 5% 3% 5% 0;
+  color: #ff4c68;
+  font-family: 'Pacifico', cursive;
+}
+
+/* Votos */
+#votos {
+  padding: 7% 15%;
+  background-color: #ff6f5e;
+  position: relative;
+}
+
+
+.h31 {
+  font-family: 'Emilys Candy', cursive;
+  font-size: 2.7rem;
+  font-weight: bold;
+  margin: 5% 3% 5% 0;
+  color: #f5f0e3;
+}
+.h31:hover{
+  color: #393e46;
+}
+.avotos:hover{
+  text-decoration: none;
+}
+
+.align {
+  padding: 5%;
+  text-align: center;
+  vertical-align: baseline;
+  display: inline-block;
+}
+
+
+
+/*History*/
+#history {
+  text-align: center;
+  background-color: #f5f0e3;
+  color: #b52b65;
+  font-size: 2;
+
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.arrow{
+  font-size: 30px;
+  color: #ff4c68;
+
+}
+
+.historycard{
+  background-color: #51eaea;
+}
+.history-image2{
+  width: 30%;
+
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+.history-image3{
+
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+
+
+.title-history{
+  font-size: 2rem;
+  font-family: 'Emilys Candy', cursive;
+  color: #ff4c68;
+}
+
+
+/*Videos*/
+#videos {
+  padding: 100px;
+  text-align: center;
+  color: #ff4c68;
+  background-color: #f5f0e3;
+}
+
+.video{
+  font-size: 50px;
+}
+
+.fa-video:hover{
+  color: #393e46;
+}
+
+.videos-column {
+  padding: 3% 2%;
+}
+
+.manequim{
+  font-size: 2rem;
+  font-family: 'Emilys Candy', cursive;
+  color: #ff4c68;
+}
+
+.videobody{
+  background-color: #ff4c68;
+}
+.videoheader{
+  background-color: #393e46;
+}
+
+/* Call to Action */
+#redes {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+}
+
+.h3footer {
+  font-family: 'Emilys Candy', cursive;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.download-button2 {
+  margin: 2% 3% 8% 0;
+}
+
+/* Footer*/
+#footer {
+  text-align: center;
+  background-color: #f5f0e3;
+}
+
+.button3 {
+  margin: 5% 5px 1% 1%;
+}
+
+.button3:hover{
+  color: #ff4c68;
+}
+
+.copyright{
+  font-family: 'Pacifico', cursive;
+}
+.copyright:hover{
+  color: #ff4c68;
+}
+
+
+/* Media Query */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .img-title {
+    position: static;
+    transform: rotate(0);
+  }
+}
