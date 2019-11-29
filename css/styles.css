@@ -215,7 +215,7 @@ a{
 /* Footer*/
 #footer {
   text-align: center;
-  background-color: #f5f0e3;
+  background-color: #fff;
 }
 
 .button3 {
@@ -234,14 +234,3 @@ a{
 }
 
 
-/* Media Query */
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
-
-  .img-title {
-    position: static;
-    transform: rotate(0);
-  }
-}
