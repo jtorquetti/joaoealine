@@ -239,7 +239,7 @@ a{
     text-align: center;
   }
 
-  .title-image {
+.img-title{
     position: static;
     transform: rotate(0);
   }
