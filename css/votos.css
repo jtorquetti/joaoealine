@@ -1,0 +1,96 @@
+/*header*/
+header{
+  font-family: 'Emilys Candy', cursive;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+/* jumbotron */
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #ff4c68;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.p1{
+  color: #fff;
+  font-family: 'Emilys Candy', cursive;
+}
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+
+.download-button{
+  margin: 5% 3% 5% 0;
+  color: #ff4c68;
+  font-family: 'Pacifico', cursive;
+}
+/*Votos*/
+.text-votosjoao{
+  font-family: 'Pacifico', cursive;
+  background-color: #fff;
+  color: #b52b65;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.5rem;
+
+  margin: 100px 100px 100px 100px;
+
+}
+
+/*footer*/
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  background-color: #ff4c68;;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+
+.button3 {
+  margin: 5% 5px 1% 1%;
+  color: #393e46;
+}
+
+.button3:hover{
+  color: #fff;
+}
+
+.copyright{
+  font-family: 'Pacifico', cursive;
+  color: #393e46;
+}
+.copyright:hover{
+  color: #fff;
+}
