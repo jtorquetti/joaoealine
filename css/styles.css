@@ -232,16 +232,3 @@ a{
 .copyright:hover{
   color: #ff4c68;
 }
-
-@media (max-width: 1028px) {
-
-  #title {
-    text-align: center;
-  }
-
-.img-title{
-    position: static;
-    transform: rotate(0);
-  }
-}
-
