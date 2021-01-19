@@ -68,10 +68,10 @@ a{
 
 /* Title Image*/
 .img-title {
-   width: 60%;
-  transform: rotate(25deg);
+  width: 60%;
   position: absolute;
-  right: 30%;
+  right: 20%;
+  border-radius: 100%;
 
 
 }
